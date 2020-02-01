@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitcoin Converter</title>
+
+    <!-- bootstrap cdn files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Bitcoin Converter.</h1>
+    <form action="/" method="post">
+        <select name="crypto" style="width: 150px;">
+            <option value="BTC">Bitcoin</option>
+            <option value="LTC">Litecoin</option>
+            <option value="ETH">Ethereum</option>
+        </select>
+        <select name="fiat" style="width: 150px;">
+            <option value="INR">Indian Currency</option>
+            <option value="USD">US Dollars</option>
+            <option value="EUC">Euro</option>
+            <option value="CAD">Canadian Dollar</option>
+        </select>
+        <br>
+        <br>
+        <button class="btn btn-primary" type="submit">Convert</button>
+    </form>
+</body>
+</html>
