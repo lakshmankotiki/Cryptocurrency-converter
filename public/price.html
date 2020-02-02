@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bitcoin Converter</title>
+    <title>Check Live Price</title>
 </head>
 <body style="background-color: #f76b8a;">
-    <!-- converting user Currency to the user selected Currency -->
-    <h1>Cryptocurrency Converter.</h1>
-    <form action="/convert.html" method="post">
+    <!-- current price of currency -->
+    <h1>Check Live Price</h1>
+    <form action="/price.html" method="post">
+        <label for="amount">Enter the Amount:</label>
+        <input type="text" name="amount">
         <select name="crypto" style="width: 150px;">
             <option value="BTC">Bitcoin</option>
             <option value="LTC">Litecoin</option>
             <option value="ETH">Ethereum</option>
         </select>
-        <select name="fiat" style="width: 150px;">  
+        <select name="fiat" style="width: 150px;">
             <option value="USD">US Dollars</option>
             <option value="EUC">Euro</option>
             <option value="CAD">Canadian Dollar</option>
